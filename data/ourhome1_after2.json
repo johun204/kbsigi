@@ -1,0 +1,69 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "03.04(수) 국민은행 신관 - A (876 kcal)",
+              "description": "도가니탕 ✓\n쌀밥\n수제김치전\n마늘종건새우볶음\n매콤콩나물무침"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - B (886 kcal)",
+              "description": "제육생야채비빔밥 ✓\n우동국물\n설탕솔솔수제핫도그\n무비트피클"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - C (956 kcal)",
+              "description": "알리오올리오 ✓\n야채볶음밥(소)\n치킨텐더샐러드\n탄산음료"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - 샐러드바 (356 kcal)",
+              "description": "그린샐러드 ✓\n오리엔탈드레싱\n시저드레싱\n마늘빵\n고구마범벅\n100%현미밥\n깍두기"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - 밀박스 (249 kcal)",
+              "description": "치킨스테이크샐러드 ✓\n"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - 밀박스 (261 kcal)",
+              "description": "피넛버터타이쉬림프샐러드 ✓\n"
+            },
+            {
+              "title": "03.04(수) 국민은행 신관 - 밀박스 (478 kcal)",
+              "description": "카프리제샐러드 ✓\n땅콩버터&사과당근스틱"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "오늘 본점",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      }
+    ]
+  }
+}

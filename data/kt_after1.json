@@ -1,0 +1,59 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "3월 1째주 주간식단표",
+              "description": "3월 1째주 주간식단표",
+              "thumbnail": {
+                "imageUrl": "http://k.kakaocdn.net/dn/jSYDM/dJMcajgYqOs/8Ryn1SJK415NKPWYFNb6y0/img_xl.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "http://k.kakaocdn.net/dn/jSYDM/dJMcajgYqOs/8Ryn1SJK415NKPWYFNb6y0/img_xl.jpg"
+                }
+              ]
+            },
+            {
+              "title": "03.03(화) KT희망나눔재단",
+              "description": "등록된 식단정보가 없습니다.\n잠시후 다시 시도해주세요 (흑흑)",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/error.png"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "KT 플러스친구",
+                  "webLinkUrl": "https://pf.kakao.com/_bwyrs/posts"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "KT",
+        "action": "message",
+        "messageText": "오늘 KT희망나눔재단 메뉴 알려줘~!"
+      },
+      {
+        "label": "전경련",
+        "action": "message",
+        "messageText": "오늘 전경련 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      }
+    ]
+  }
+}

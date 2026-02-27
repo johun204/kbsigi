@@ -1,0 +1,50 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "03.04(수) 전경련회관 - A코너(조식)",
+              "description": "경상도식소고기무국\n쌀밥, 데리야끼고기산적조림, 깻잎지, 계란후라이/숭늉/도시락김, 배추김치"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "조식",
+        "action": "message",
+        "messageText": "오늘 전경련회관 조식 메뉴 알려줘~!"
+      },
+      {
+        "label": "중식",
+        "action": "message",
+        "messageText": "오늘 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "석식",
+        "action": "message",
+        "messageText": "오늘 전경련회관 석식 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 전경련회관 조식 메뉴 알려줘~!"
+      },
+      {
+        "label": "KT(구내식당)",
+        "action": "message",
+        "messageText": "오늘 KT 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      }
+    ]
+  }
+}

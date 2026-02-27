@@ -1,0 +1,48 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "03.02(월) 국민은행 본점",
+              "description": "등록된 식단정보가 없습니다.\n다른 날짜로 다시 물어봐주세요 (흑흑)",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/error.png"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "오늘 신관",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      }
+    ]
+  }
+}

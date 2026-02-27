@@ -1,0 +1,39 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "simpleText": {
+          "text": "반가워요~!\n오전 1시 여의도 날씨는 ⛅ 8°C 입니다~\n어떤곳의 식단을 알려드릴까요? (하하)\n\nex) 서관 메뉴 알려줘!\n내일 신관 밥 뭐나와?"
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "전산센터",
+        "action": "message",
+        "messageText": "오늘 여의도전산센터(서관) 메뉴 알려줘~!"
+      },
+      {
+        "label": "신관",
+        "action": "message",
+        "messageText": "오늘 KB국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "본점",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "전경련",
+        "action": "message",
+        "messageText": "오늘 전경련회관 메뉴 알려줘~!"
+      },
+      {
+        "label": "오늘의 운세",
+        "action": "message",
+        "messageText": "오늘의 운세 알려줘~!"
+      }
+    ]
+  },
+  "version": "2.0"
+}
