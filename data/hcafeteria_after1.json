@@ -1,0 +1,85 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "03.23(월) 여의도IT센터 - 뽀그락 (965 kcal)",
+              "description": "(명가교동짬뽕X현대그린푸드)명가교동짬뽕,치킨까스유린기,쌀밥(추가밥),꼬들단무지,배추김치,샐러드*토핑&드레싱,매실차",
+              "thumbnail": {
+                "imageUrl": "https://hcafe.hgreenfood.com/img/0058/2025/12/02/23d0bb726c4f493c9a4abc83123b3c06.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://hcafe.hgreenfood.com/img/0058/2025/12/02/23d0bb726c4f493c9a4abc83123b3c06.jpg"
+                }
+              ]
+            },
+            {
+              "title": "03.23(월) 여의도IT센터 - 샐러드팩 (328 kcal)",
+              "description": "새우튀김샐러드,바나나&음료 택1",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "03.23(월) 여의도IT센터 - 샌드위치팩 (507 kcal)",
+              "description": "베이컨감자모닝샌드위치,토핑요거트&구운계란&음료택1",
+              "thumbnail": {
+                "imageUrl": "https://hcafe.hgreenfood.com/img/0058/2026/01/22/4b84f1c9f616469380b5a72bfd47c505.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://hcafe.hgreenfood.com/img/0058/2026/01/22/4b84f1c9f616469380b5a72bfd47c505.jpg"
+                }
+              ]
+            },
+            {
+              "title": "03.23(월) 여의도IT센터 - 프로틴팩 (180 kcal)",
+              "description": "프로틴팩,바나나&음료 택1",
+              "thumbnail": {
+                "imageUrl": "https://hcafe.hgreenfood.com/img/0058/2025/10/20/70c9b142516c45d593dc9c47e390eaca.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://hcafe.hgreenfood.com/img/0058/2025/10/20/70c9b142516c45d593dc9c47e390eaca.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      }
+    ]
+  }
+}
