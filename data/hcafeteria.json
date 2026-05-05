@@ -1,0 +1,78 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "05.18(월) 여의도IT센터 - 뽀그락 (1266 kcal)",
+              "description": "일식우삼겹만두전골,현미밥,크로켓&케첩,오복채오이지무침,김치볶음,샐러드*토핑&드레싱,오렌지주스",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "05.18(월) 여의도IT센터 - 샐러드팩 (347 kcal)",
+              "description": "치킨가라아게샐러드,스위트칠리소스,바나나&음료 택1,액상요구르트",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "05.18(월) 여의도IT센터 - 샌드위치팩 (673 kcal)",
+              "description": "크랜베리치킨샌드위치,토핑요거트&구운계란&음료택1",
+              "thumbnail": {
+                "imageUrl": "https://hcafe.hgreenfood.com/img/0058/2024/05/30/5cfaaf33bd4342d28e80da4da1372ad0.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://hcafe.hgreenfood.com/img/0058/2024/05/30/5cfaaf33bd4342d28e80da4da1372ad0.jpg"
+                }
+              ]
+            },
+            {
+              "title": "05.18(월) 여의도IT센터 - 프로틴팩 (180 kcal)",
+              "description": "프로틴팩,바나나&음료 택1",
+              "thumbnail": {
+                "imageUrl": "https://hcafe.hgreenfood.com/img/0058/2025/10/20/70c9b142516c45d593dc9c47e390eaca.jpg"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://hcafe.hgreenfood.com/img/0058/2025/10/20/70c9b142516c45d593dc9c47e390eaca.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 여의도IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      }
+    ]
+  }
+}

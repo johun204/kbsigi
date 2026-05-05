@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "05.18(월) 국민은행 본점 - A (766 kcal)",
+              "description": "얼큰꼬치어묵전골 ✓\n쌀밥\n수제계란찜\n모듬버섯볶음\n배추나물"
+            },
+            {
+              "title": "05.18(월) 국민은행 본점 - B (840 kcal)",
+              "description": "일품팔보채덮밥 ✓\n계란파국\n두부유린기\n반달단무지"
+            },
+            {
+              "title": "05.18(월) 국민은행 본점 - 샐러드바 (354 kcal)",
+              "description": "그린샐러드 ✓\n오리엔탈드레싱\n키위드레싱\n미역줄기볶음\n매실차\n100%통곡물현미밥\n누룽지\n배추김치"
+            },
+            {
+              "title": "05.18(월) 국민은행 본점 - 인더박스 (252 kcal)",
+              "description": "닭가슴살샐러드 ✓\n"
+            },
+            {
+              "title": "05.18(월) 국민은행 본점 - 인더박스(저탄소샐러드) (141 kcal)",
+              "description": "쉬림프포케 ✓\n"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "오늘 신관",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      }
+    ]
+  }
+}
