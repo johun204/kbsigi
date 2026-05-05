@@ -1,0 +1,64 @@
+name: Update Menu Data (Dispatch)
+
+on:
+  repository_dispatch:
+    types: [kbsigi_trigger]
+
+  # 수동으로 실행하고 싶을 때를 위해 추가
+  workflow_dispatch:
+  
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    # 환경변수 설정 (타임존 설정)
+    env:
+      TZ: Asia/Seoul
+
+    steps:
+    - name: 저장소 체크아웃 (Checkout)
+      uses: actions/checkout@v4
+
+    - name: 파이썬 설정 (Set up Python)
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9' # 파이썬 버전 지정
+
+    - name: 라이브러리 설치 (Install dependencies)
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: 파이썬 스크립트 실행 (Run script)
+      env:
+        # Github Repository Secrets에 등록된 키를 불러옵니다.
+        OURHOME_KEY: ${{ secrets.OURHOME_KEY }}
+        HCAFETERIA_KEY: ${{ secrets.HCAFETERIA_KEY }}
+        HCAFETERIA_URL: ${{ secrets.HCAFETERIA_URL }}
+        OURHOME_URL: ${{ secrets.OURHOME_URL }}
+        CJFRESH_URL: ${{ secrets.CJFRESH_URL }}
+      run: |
+        python main.py
+
+    - name: 변경사항 커밋 및 푸시 (Commit and Push)
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        # data 폴더 내의 json 파일들만 스테이징
+        git add data/*.json
+        
+        # 변경사항이 있는지 확인 (변경사항 없으면 여기서 종료되어 에러 방지)
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+          exit 0
+        fi
+        
+        git commit --amend -m "Auto Update: Menu Data JSON [$(date)]" --author="github-actions[bot] <github-actions[bot]@users.noreply.github.com>" || git commit -m "Auto Update: Menu Data JSON [$(date)]"
+        git push -f origin HEAD:main
