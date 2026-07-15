@@ -1,0 +1,111 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "07.24(금) 국민은행 신관 - A (779 kcal)",
+              "description": "뼈다귀해장국,쌀밥,메밀배추전,느타리고사리볶음,아삭이고추된장무침",
+              "thumbnail": {
+                "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/de29a415-e3b0-410b-910b-441df12c7872.jpg?tm=20260724200029"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/de29a415-e3b0-410b-910b-441df12c7872.jpg?tm=20260724200029"
+                }
+              ]
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - B (644 kcal)",
+              "description": "누룽지닭죽,동치미,고기메밀전병,오징어젓무무침",
+              "thumbnail": {
+                "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/30411bc3-9a52-4387-bfc8-7e63eb981fd8.jpg?tm=20260724200029"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/30411bc3-9a52-4387-bfc8-7e63eb981fd8.jpg?tm=20260724200029"
+                }
+              ]
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - C (1109 kcal)",
+              "description": "짜계치,1/2 소시지김밥,김말이튀김,단무지",
+              "thumbnail": {
+                "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/cd83cba9-687e-4c0d-9cb5-ea16634e072f.jpg?tm=20260724200029"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/cd83cba9-687e-4c0d-9cb5-ea16634e072f.jpg?tm=20260724200029"
+                }
+              ]
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - 샐러드바 (244 kcal)",
+              "description": "그린샐러드,오리엔탈드레싱,시저드레싱,밀키수박화채,우묵무침,100%현미밥,배추김치",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - 밀박스 (385 kcal)",
+              "description": "치폴레치킨부리또샐러드,.",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - 밀박스 (488 kcal)",
+              "description": "리코타치킨샐러드,.",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "07.24(금) 국민은행 신관 - 밀박스 (580 kcal)",
+              "description": "바질토마토샌드&샐러드피크닉세트,땅콩버터&사과당근스틱",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "오늘 본점",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      }
+    ]
+  }
+}

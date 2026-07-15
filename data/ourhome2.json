@@ -1,0 +1,90 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "basicCard",
+          "items": [
+            {
+              "title": "07.24(금) 국민은행 본점 - A (829 kcal)",
+              "description": "닭개장*당면사리,흑향미밥,매생이전*양파간장,비엔나야채볶음,오이무침",
+              "thumbnail": {
+                "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/2b306002-fe4a-43e4-b578-683a6e5ca635.jpg?tm=20260724200031"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/2b306002-fe4a-43e4-b578-683a6e5ca635.jpg?tm=20260724200031"
+                }
+              ]
+            },
+            {
+              "title": "07.24(금) 국민은행 본점 - B (927 kcal)",
+              "description": "눈꽃치즈닭갈비볶음밥*계란후라이,맑은우동국물,핫도그*케찹,반달단무지",
+              "thumbnail": {
+                "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/b07731a0-b104-47e9-b3f9-ad2b3f617a4b.jpg?tm=20260724200031"
+              },
+              "buttons": [
+                {
+                  "action": "webLink",
+                  "label": "사진 크게보기",
+                  "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/b07731a0-b104-47e9-b3f9-ad2b3f617a4b.jpg?tm=20260724200031"
+                }
+              ]
+            },
+            {
+              "title": "07.24(금) 국민은행 본점 - 샐러드바 (385 kcal)",
+              "description": "그린샐러드,오리엔탈드레싱,오렌지드레싱,청포묵김가루무침,12곡 미숫가루,100%통곡물현미밥,누룽지,배추김치",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "07.24(금) 국민은행 본점 - 인더박스 (130 kcal)",
+              "description": "잠봉햄샐러드",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            },
+            {
+              "title": "07.24(금) 국민은행 본점 - 인더박스(저탄소샐러드) (64 kcal)",
+              "description": "오징어세비체샐러드",
+              "thumbnail": {
+                "imageUrl": "https://johun204.github.io/kbsigi/image/no_image.png"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "오늘 신관",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      }
+    ]
+  }
+}
