@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "08.09(일) 한국교직원공제회 - 중식",
+              "description": "등록된 식단정보가 없습니다.\n다른 날짜로 다시 물어봐주세요 (흑흑)\n\nex) 서관 메뉴 알려줘!\n내일 신관 밥 뭐나와?"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      }
+    ]
+  }
+}
