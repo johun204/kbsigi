@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "09.11(금) 국민은행 신관 - B (968 kcal)",
+          "description": "이 메뉴는 968kcal로 적당한 칼로리와 단백질이 풍부한 제육장 조림과 고추장 비빔밥이 포함돼 에너지와 근육 생성에 적합합니다。\n또한, 무순장국과 한입만두카츠가 함께 제공되어 식이섬유와 다양성을 더해 균형 잡힌 식사를 완성합니다。\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/e7fa268e-5f3c-4427-8770-3e7f3abc12a7.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/e7fa268e-5f3c-4427-8770-3e7f3abc12a7.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

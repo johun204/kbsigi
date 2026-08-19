@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "09.11(금) 국민은행 IT센터 - 한식코너(중식)",
+          "description": "이 메뉴는 고단백 두부와 고소한 햄마늘쫑볶음이 포함돼 체력 회복에 도움을 줍니다.\n09.11(금) 중식으로 선택하면 외부 업무에 필요한 활력을 동시에 챙길 수 있습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/d6953dcf-1d43-4668-8872-2120854b0deb_FOODIE_1789091947826.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/d6953dcf-1d43-4668-8872-2120854b0deb_FOODIE_1789091947826.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

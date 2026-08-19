@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "09.11(금) 한국교직원공제회 - 한식(중식)",
+          "description": "주어진 메뉴 구성으로 볼 때, 돌솥오색비빔밥은 고기와 다양한 야채가 밸런스 있게 어울려 탄수화물, 단백질, 식이섬유를 고르게 공급합니다.\n배추김치와 그린샐러드, 파송송계란국이 함께 있어 식사후 소화도 원활히 돕습니다。\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/4ab98f9b-ba78-4351-a7ec-9a7f5bdce504_IMG_9354.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/4ab98f9b-ba78-4351-a7ec-9a7f5bdce504_IMG_9354.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
