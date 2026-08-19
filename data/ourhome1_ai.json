@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "10.23(금) 국민은행 신관 - A (744 kcal)",
+          "description": "뼈다귀 해장국과 채소가 풍부해 소화에 좋고 단백질이 풍부합니다.\n전체적인 열량이 744kcal로 적당해 점심에 충분하며, 부드러운 육수와 식이섬유가 균형을 이룹니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/af5c6a8a-e218-4ae5-94d9-edf7ec820d02.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/af5c6a8a-e218-4ae5-94d9-edf7ec820d02.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
