@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "09.04(금) 국민은행 IT센터 - 한식코너(중식)",
+          "description": "09.04(금) 국민은행 IT센터 - 한식코너(중식)은 돈육간장불고기가 메인으로 풍부한 단백질과 돼지고기 특유의 감칠맛을 제공하며, 매콤 콩나물국과 여러 반찬이 균형 잡힌 영양을 보장합니다.\n이 메뉴는 한 끼에 비타민, 무기질, 그리고 식이섬유를 충분히 섭취할 수 있어 점심시간 에너지 충전에 최적의 선택입니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/upload/meal/20260904_Ays_1788486291274.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/upload/meal/20260904_Ays_1788486291274.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
