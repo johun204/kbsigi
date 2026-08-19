@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "09.18(금) 국민은행 IT센터 - 한식코너(중식)",
+          "description": "오늘은 9월 18일 금요일, 고소한 들기름깍두기와 볶음밥으로 단백질과 섬유소를 균형있게 섭취할 수 있는 메뉴입니다.\n어묵국과 백김치, 소떡소떡볶음까지 한 끼에 다양한 맛과 영양을 제공해 소화도 잘 돼요.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/4b08180f-f248-4178-862c-4958d720d360_FOODIE_1789696640980.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/4b08180f-f248-4178-862c-4958d720d360_FOODIE_1789696640980.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
