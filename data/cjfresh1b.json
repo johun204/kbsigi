@@ -1,0 +1,54 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "09.16(수) 전경련회관 - A코너(중식)",
+              "description": "치킨커틀릿*버터롤\n쌀밥, 유부미소시루, 살사푸실리샐러드, 오이피클, 배추김치, 그린샐러드*탄산음료"
+            },
+            {
+              "title": "09.16(수) 전경련회관 - B코너(중식)",
+              "description": "콩나물밥*양념장\n배추된장국, 간장제육볶음, 미역줄기볶음, 파래김구이, 배추김치"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "KT(구내식당)",
+        "action": "message",
+        "messageText": "오늘 KT 메뉴 알려줘~!"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 전경련회관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  }
+}

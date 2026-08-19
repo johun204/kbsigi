@@ -1,0 +1,40 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "textCard": {
+          "title": "09.16(수) 국민은행 IT센터 - 한식코너(중식)",
+          "description": "순대국밥과 잡곡밥은 단백질과 복합탄수화물의 조합으로 포만감이 오래가며, 김치와 콩나물 무침이 비타민과 미네랄을 보충해 주어요.\n이 메뉴는 전통 한식의 풍부한 맛과 함께 균형 잡힌 영양을 제공해 오래무뇌 환경에서도 활력을 돕습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다."
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

@@ -1,0 +1,40 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "textCard": {
+          "title": "09.16(수) 국민은행 신관 - B (1257 kcal)",
+          "description": "고단백 고열량 메뉴로 소고기와 야채가 풍부해 주간 근육 회복과 에너지 충전에 적합합니다.\n간편한 밥편과 감자스프, 옥수수고로케, 무비트피클이 균형 잡힌 식단을 완성합니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다."
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

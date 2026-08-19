@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "09.16(수) 한국교직원공제회 - 한식(중식)",
+              "description": "설렁탕&소면사리(우육:호주산)\n잡곡밥, 너비아니구이*부추겉절이, 무생채, 배추김치, 그린샐러드*드레싱2종, 꿀토마토"
+            },
+            {
+              "title": "09.16(수) 한국교직원공제회 - 일품(중식)",
+              "description": "멘야하나비 하나비카레(돈육:국내산)\n유부미소시루, 새우튀김, 무생채, 배추김치, 그린샐러드*드레싱2종, 꿀토마토"
+            },
+            {
+              "title": "09.16(수) 한국교직원공제회 - FRESH-BOX(중식)",
+              "description": "함박바질펜네샐러드\n-"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  }
+}

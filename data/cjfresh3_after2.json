@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "template": {
+    "outputs": [
+      {
+        "carousel": {
+          "type": "textCard",
+          "items": [
+            {
+              "title": "09.18(금) 국민은행 IT센터 - 한식코너(중식)",
+              "description": "들기름깍두기볶음밥*계란후라이\n어묵국, 소떡소떡볶음, 히야시토마토, 백김치"
+            },
+            {
+              "title": "09.18(금) 국민은행 IT센터 - PIUS-BAR(중식)",
+              "description": "PlUS-BAR\n그린샐러드*소스, 새우칩"
+            },
+            {
+              "title": "09.18(금) 국민은행 IT센터 - 큐레이츠 수제샐러드(중식)",
+              "description": "소시지에그샐러드\n-"
+            },
+            {
+              "title": "09.18(금) 국민은행 IT센터 - 큐레이츠 프로틴 SET(중식)",
+              "description": "프로틴 BOX\n-"
+            },
+            {
+              "title": "09.18(금) 국민은행 IT센터 - 큐레이츠 샌드위치(중식)",
+              "description": "베이커리&커피SET\n-"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 IT센터 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 IT센터 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  }
+}
