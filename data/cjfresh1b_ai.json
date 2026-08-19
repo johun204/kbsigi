@@ -1,0 +1,55 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "10.02(금) 전경련회관 - A코너(중식)",
+          "description": "10.02(금) 전경련회관 - A코너(중식)는 가쓰오볶음우동, 후리가케밥, 오징어핫바와 같은 고단백·고탄수의 식단으로 포만감을 극대화해 줍니다.\n바쁜 일정 중 에너지 충전과 영양 균형을 동시에 만족시키는 완전형인 메뉴입니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/43cc7efa-b2cd-495a-8e04-4466b048d2f6_IMG_8844.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/43cc7efa-b2cd-495a-8e04-4466b048d2f6_IMG_8844.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "KT(구내식당)",
+        "action": "message",
+        "messageText": "오늘 KT 메뉴 알려줘~!"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 전경련회관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

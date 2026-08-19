@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "10.02(금) 한국교직원공제회 - 한식(중식)",
+          "description": "가자미솥밥과 된장찌개가 함께 제공돼 탄수화물과 풍부한 식이섬유를 함유하며, 통마늘바싹불고기와 신선한 채소로 단백질과 비타민을 보충합니다.\n해물짬뽕보다는 기름진 맛이 덜해 소화가 부드럽고, 부드러운 국물은 식후 만족감을 높입니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/5eb7aa7d-5937-4dc4-9da5-2a631ce33a8b_IMG_9577.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/5eb7aa7d-5937-4dc4-9da5-2a631ce33a8b_IMG_9577.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
