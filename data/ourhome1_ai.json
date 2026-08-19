@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "08.21(금) 국민은행 신관 - B (1103 kcal)",
+          "description": "오늘은 칼로리와 양이 풍부한 B 메뉴를 선택해 보세요.\n매콤한 닭강정과 쌀국수 육수로 맛과 에너지를 동시에 충족할 수 있습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/aa2c8cda-67f8-4170-a483-b973ea12f27b.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/aa2c8cda-67f8-4170-a483-b973ea12f27b.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

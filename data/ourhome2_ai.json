@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "08.21(금) 국민은행 본점 - A (691 kcal)",
+          "description": "해물순두부찌개는 고단백, 미네랄이 풍부하며 691kcal로 적당한 열량을 제공합니다.\n흑향미밥과 동그랑땡전이 함께 제공돼 에너지와 식감의 균형을 이룹니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/79d8909b-385f-4600-8288-c4fbb15a1f3c.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/79d8909b-385f-4600-8288-c4fbb15a1f3c.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}

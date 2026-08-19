@@ -1,0 +1,45 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "textCard": {
+          "title": "08.21(금) 전경련회관 - B코너(중식)",
+          "description": "언양식바싹불고기와 매콤한 두부조림이 풍부한 단백질과 식이섬유를 제공하여 한 끼에 충분한 영양을 보충해 줍니다.\n해장 효과가 뛰어난 나주곰탕과 잡곡밥은 에너지 회복과 소화를 돕습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다."
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 전경련회관 중식 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "KT(구내식당)",
+        "action": "message",
+        "messageText": "오늘 KT 메뉴 알려줘~!"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 전경련회관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
