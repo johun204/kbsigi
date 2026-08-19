@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "10.08(목) 한국교직원공제회 - 한식(중식)",
+          "description": "이 메뉴는 국내산 돼지고기로 만든 돈육장조림과 잡곡밥이 만나 단백질과 복합탄수화물을 골고루 제공해 줍니다.\n그린샐러드와 배추김치가 함께해 맛과 비타민 섭취를 동시에 챙길 수 있습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://fsmealimageprd.ifresh.co.kr/meal/80b4df25-1777-4b40-8674-0b147c570744_IMG_6735.jpeg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://fsmealimageprd.ifresh.co.kr/meal/80b4df25-1777-4b40-8674-0b147c570744_IMG_6735.jpeg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 한국교직원공제회 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 한국교직원공제회 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
