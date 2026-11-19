@@ -1,0 +1,50 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "basicCard": {
+          "title": "11.20(금) 국민은행 본점 - A (768 kcal)",
+          "description": "해물된장찌개와 제육볶음으로 구성되어 든든한 한 끼 식사가 가능합니다.\n균형 잡힌 영양 성분과 768 kcal의 적절한 열량을 제공합니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다.",
+          "thumbnail": {
+            "imageUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/813cdbca-6231-494b-89eb-2599ff5cdedd.jpg"
+          },
+          "buttons": [
+            {
+              "action": "webLink",
+              "label": "사진 크게보기",
+              "webLinkUrl": "https://mealcareapi.ourhome.co.kr/resources/files/apps/menu/813cdbca-6231-494b-89eb-2599ff5cdedd.jpg"
+            }
+          ]
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 본점 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 본점 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
