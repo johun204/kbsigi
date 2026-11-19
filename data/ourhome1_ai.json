@@ -1,0 +1,40 @@
+{
+  "template": {
+    "outputs": [
+      {
+        "textCard": {
+          "title": "11.25(수) 국민은행 신관 - C (1212 kcal)",
+          "description": "든든한 한 끼 식사가 가능하도록 구성되어 있으며, 꿔바로우와 짜사이무침이 곁들여져 영양과 맛의 조화가 좋습니다.\n적절한 칼로리와 풍성한 메뉴 구성으로 오후 업무를 위한 에너지를 충분히 보충할 수 있습니다.\n\n※ 위 내용은 생성형 AI를 통해 작성되었습니다."
+        }
+      }
+    ],
+    "quickReplies": [
+      {
+        "label": "오늘",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "내일",
+        "action": "message",
+        "messageText": "내일 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "모레",
+        "action": "message",
+        "messageText": "모레 국민은행 신관 메뉴 알려줘~!"
+      },
+      {
+        "label": "처음으로",
+        "action": "message",
+        "messageText": "처음으로"
+      },
+      {
+        "label": "큽식이 추천(AI)",
+        "action": "message",
+        "messageText": "오늘 국민은행 신관 큽식이(AI) 추천메뉴 뭐야~?"
+      }
+    ]
+  },
+  "version": "2.0"
+}
